@@ -1,0 +1,103 @@
+.contenedor{
+    border: 1px grey solid;
+    margin: 2em;
+    padding: 2em;
+}
+
+.div_marquee {
+    font-family: oswald, Arial;
+    font-size: 20px !important;
+    line-height: 1.1 !important;
+    border: 0px #d8d8d8 solid;
+    border-radius: 0px;
+    padding-top: 7px;
+    margin-bottom: 7px;
+}
+.h4_marquee {
+    font-family: oswald, Arial;
+    width: 100%;
+    text-align: center;    
+    /* width: auto;
+    float: left;
+    font-size: 20px;
+    line-height: 1.1;
+    margin-top: 5px;
+    margin-bottom: 5px; */
+}
+
+.div_title{
+    display: inline-block;
+    width: 100%; 
+    background-color: #123368;
+}
+.luz{
+    font-size:25px;    
+    width:100%;
+    color: #000000;
+    margin-top: 0.3em;
+    text-shadow:
+     1px  1px rgba(255, 255, 255, .1),
+    -1px -1px rgba(0, 0, 0, .88);
+   
+}
+.luz_on{    
+    font-size:25px;    
+    width:100%;    
+    color:aliceblue; 
+    margin-top: 0.3em; 
+    text-shadow:
+     1px  1px rgba(255, 255, 255, .1),
+    -1px -1px rgba(0, 0, 0, .88),
+     0px  0px 20px #0099ff; 
+  } 
+
+  .div_horario{
+    border: 1px #D8D8D8 solid;
+    border-radius: 5px;
+    /* padding-top: 7px; */
+    /* margin-bottom: 10%; */
+        background-color: #eef2f5;    
+    margin: 0 !important;
+  }
+  .fecha{
+	font-family: oswald, Arial;
+	font-size: 1.5em;
+	color: black;
+	background: rgba(0,0,0,0);
+  padding-top: 0.6em;	
+    text-align: center;
+}
+.reloj{	
+	font-family: oswald, Arial;
+	font-size: 2.5em;
+	color: black;
+	background: rgba(0,0,0,0);
+	/* margin-top: -12px; */
+    text-align: center;
+}
+.col_numero_empleado>div{
+    padding-top: 0.6em;
+    margin-bottom: 0px !important;
+}
+
+.div_main_data{
+    margin-top: 3em;
+}
+
+img{
+ display: inline-block;
+}
+#person_logo{
+    width: 40%;
+}
+.img_fc_logo{    
+    padding: 2em;
+    width: 28%;
+}
+
+.div_main_data,.div_registro,.div_empleados,.div_vehiculos{
+    margin-bottom: 3em;
+}
+
+
+

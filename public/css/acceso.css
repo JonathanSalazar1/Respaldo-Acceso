@@ -1,0 +1,94 @@
+.contenedor {
+    border: 1px grey solid;
+    margin: 2em;
+    padding: 2em;
+}
+
+.div_horario {
+    border: 1px #d8d8d8 solid;
+    border-radius: 5px; 
+    background-color: #eef2f5;
+    margin: 0 !important;
+}
+.fecha {
+    font-family: oswald, Arial;
+    font-size: 1.5em;
+    color: black;
+    background: rgba(0, 0, 0, 0);
+    /* padding-top: 0.6em; */
+    /* text-align: center; */
+}
+.fecha label{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0 !important;
+}
+.reloj {
+    font-family: oswald, Arial;
+    font-size: 2.5em;
+    color: black;
+    background: rgba(0, 0, 0, 0);    
+}
+.reloj label{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0 !important;
+}
+.col_numero_empleado > div {
+    /* padding-top: 0.6em; */
+    margin-bottom: 0px !important;
+}
+
+.div_main_data {
+    margin-top: 3em;
+}
+.col_div_img_logo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+img {
+    display: inline-block;
+}
+#person_logo {
+    width: 80%;
+    border: 3px solid gold;
+}
+
+.separator-small{
+    margin-top: 4em;
+}
+.separator-medium{
+    margin-top: 6em;
+}
+
+table thead,table tbody{
+    color: black;
+    text-align: center;
+}
+
+
+.alert{
+    margin-bottom: 0 !important;
+}
+.alert div{
+    width: 100%;    
+    text-align: center;
+}
+
+
+.my-custom-scrollbar {
+    position: relative; 
+    overflow: auto;
+    }
+    .table-wrapper-scroll-x {
+    display: block;
+    }
+
+    @media screen and (max-width:767px) {
+       .div_horario{
+        padding: 3% 0;
+       } 
+    }
